@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="95df83cccdb945dc9ebb26f6627ffbaa" Name="Diagram1">
+        <EntityTypeShape EntityType="YurtDbModel.Gıderler" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="YurtDbModel.Izınler" Width="1.5" PointX="3" PointY="4.375" />
+        <EntityTypeShape EntityType="YurtDbModel.Odalar" Width="1.5" PointX="3" PointY="7.625" />
+        <EntityTypeShape EntityType="YurtDbModel.Odemeler" Width="1.5" PointX="3" PointY="1.25" />
+        <EntityTypeShape EntityType="YurtDbModel.Ogrenciler" Width="1.5" PointX="0.75" PointY="3.5" />
+        <EntityTypeShape EntityType="YurtDbModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="3.75" />
+        <EntityTypeShape EntityType="YurtDbModel.Yonetici" Width="1.5" PointX="5.75" PointY="6.75" />
+        <AssociationConnector Association="YurtDbModel.FK_Izınler_Ogrenciler" />
+        <AssociationConnector Association="YurtDbModel.FK_Odalar_Ogrenciler" />
+        <AssociationConnector Association="YurtDbModel.FK_Odemeler_Ogrenciler" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
